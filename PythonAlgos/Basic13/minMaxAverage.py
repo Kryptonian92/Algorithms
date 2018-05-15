@@ -11,8 +11,12 @@ def arrValues(arr,t,m,l):
         t+=arr[i];
         if(arr[i]>m):
             m=arr[i]
+        else:
+            pass
         if(arr[i]<arr[i]+1):
             l=arr[i]
-    print ("Max: "+m+"Minimum: "+l+"Average: " + (t/len(arr)))
+        else:
+            pass
+    print ("Max: ",m,"Minimum: ",l,"Average: " , (t/len(arr)))
     # print ("The average is " + "%.2f" % (3/2))
 arrValues(numArray,total,maxNum,minNum)
